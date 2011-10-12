@@ -1,0 +1,9 @@
+Calc = new Ext.Application({
+    name: "Calc",    
+    launch: function() {
+    	 	var hitung = function (btn, evt) {
+            alert("Button '" + btn.text + "' tapped.");
+        }
+        this.views.viewport = new this.views.Viewport();
+    }
+});
